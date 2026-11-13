@@ -1,16 +1,59 @@
-# React + Vite
+# 🎬 ProstoTV - Web Team Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Вебзастосунок для пошуку, фільтрації та підбору фільмів і серіалів на базі React та відкритих даних The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Демонстрація (Live Demo)
 
-## React Compiler
+- 🔗 **Робочий сайт (GitHub Pages):** [https://prosto-tv-team.github.io/prosto-tv-web-team-project/](https://prosto-tv-team.github.io/prosto-tv-web-team-project/)
+- 📋 **Канбан-дошка задач (Projects):** [Дошка завдань команди](https://github.com/orgs/prosto-tv-team/projects/2)
+- 📄 **Документ вимог до продукту:** [PRD.md](./PRD.md)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 👥 Склад команди (група КС-32)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Учасник | Роль у команді | Основна зона відповідальності |
+|---|---|---|
+| **Черноус Валерій** | **Team Lead / DevOps** | Архітектура репозиторію, налаштування середовища Vite/React, CI/CD, Code Review |
+| **Павлова Софія** | **Product Manager / Tech Writer** | Розробка вимог (PRD), проєктування User Stories, ведення таск-трекера |
+| **Прохоренко Нікіта** | **UI Engineer** | Підбір підходу до стилізації (SCSS/CSS Modules), компоненти інтерфейсу |
+| **Сурмач Володимир** | **Quality Assurance** | Налаштування лінтерів (ESLint, Stylelint), контроль якості коду |
+
+---
+
+## 🛠 Стек технологій
+
+- **Frontend:** [React 19](https://react.dev/) + [Vite](https://vite.dev/)
+- **Мова:** JavaScript (ES6+)
+- **Стилізація:** CSS / SCSS Modules
+- **API:** [The Movie Database (TMDB) API](https://www.themoviedb.org/documentation/api)
+- **Контроль якості коду:** ESLint (JS/React) + Stylelint (CSS/SCSS)
+- **Автоматизація (CI/CD):** GitHub Actions (автоматичні тести, валідація білду та лінтерів, автодеплой на GitHub Pages)
+
+---
+
+## 🚀 Локальний запуск та розробка
+
+1. **Клонувати репозиторій:**
+   ```bash
+   git clone https://github.com/prosto-tv-team/prosto-tv-web-team-project.git
+   cd prosto-tv-web-team-project
+   ```
+
+2. **Встановити залежності:**
+   ```bash
+   npm install
+   ```
+
+3. **Запустити сервер для розробки:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Перевірити лінтери та зібрати проєкт:**
+   ```bash
+   npm run lint
+   npm run build
+   ```
